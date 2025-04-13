@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #310345;
+    text-align: center;
+
+}
+h1{
+    background:#6c727c;
+    color: white;
+    height: 5rem;
+   line-height: 5rem;  /*  to place the text in centre */
+   font-size: 3rem;
+}
+
+.choice{
+    height: 300px;
+    width: 300px;
+}
+img{
+    height: 270px;
+    width: 270px;
+    object-fit: cover;    /* to make the images not to much strech and shrink*/
+    border-radius: 50%;   /* to make the image in circle*/
+}
+.choices{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.score_board{
+  
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 100px;
+    margin-bottom: 50px;
+    margin-top:60px ;
+    font-size: 2rem;
+}
+#user-score,#computer-score{
+    font-size: 4rem;
+}
+
+.msg-container{
+    margin-top: 50px;
+}
+
+#msg{
+    background: #000;
+    font-size: 2rem;
+    display: inline;  /* background colour unte hi area me rhega jitne me contant h  */
+    color: aliceblue;
+    padding: 1rem;
+    border-radius: .6rem;
+}
+
